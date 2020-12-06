@@ -2,7 +2,6 @@
   "name": "todogym",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://osamahalrsam43.github.io/sadeymhb/",
   "dependencies": {
     "@capacitor/android": "^2.4.4",
     "@capacitor/cli": "^2.4.4",

@@ -8,9 +8,7 @@ import {
 
 import LogIn from "./components/LogIn"
 import Users from "./components/Users"
-import DashBoard from "./components/DashBoard"
 
-import DashBoardAdmin from './Pages/DashBoardAdmin';
 import AddUsers from './components/Users/AddUsers';
 import UpdateUsers from './components/Users/UpdateUsers';
 import FilesUsers from './components/Users/FilesUsers';
@@ -29,7 +27,6 @@ const App = () => {
            <ProtectedRoute path="/usersmange" Component={Users} />
           <ProtectedRoute path="/addusers" Component={AddUsers} />
           <ProtectedRoute path="/Mustakdem" Component={Mustakdem} />
-
          
           <Route path="/FilesUsers" component={FilesUsers} />
 
